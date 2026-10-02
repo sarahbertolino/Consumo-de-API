@@ -1,0 +1,54 @@
+body {
+    background: rgb(255, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    background: rgb(133, 1, 1);
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    max-width: 900px; 
+    border-radius: 12px;
+}
+
+button {
+    background: yellow;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+#listaPokemon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+}
+
+article {
+    background: white;
+    color: black;
+    padding: 12px;
+    border: 4px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article img {
+    background: #9bbc0f;
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+
+article p:last-child {
+    font-weight: bold;
+}
